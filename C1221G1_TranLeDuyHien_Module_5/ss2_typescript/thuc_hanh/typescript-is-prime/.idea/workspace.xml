@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22baba66-145b-4573-9e85-1bbfc0331df9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/typescript-control-flow-and-loop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../typescript-variable/.idea/dictionaries/Admin.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="2ABPkdbAgyHEhJCus8u9LDCbNuG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\codegym5\C1221G1_TranLeDuyHien_Module_5\ss2_typescript\thuc_hanh\typescript-is-prime\node_modules\typescript\lib" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22baba66-145b-4573-9e85-1bbfc0331df9" name="Default Changelist" comment="" />
+      <created>1654480149978</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654480149978</updated>
+      <workItem from="1654480151090" duration="134000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
