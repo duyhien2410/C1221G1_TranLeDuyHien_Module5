@@ -20,22 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22baba66-145b-4573-9e85-1bbfc0331df9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/typescript-control-flow-and-loop.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/src/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../typescript-variable/.idea/dictionaries/Admin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/sum-fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/sum-fibonacci/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/sum-fibonacci/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/sum-fibonacci/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_tap/sum-fibonacci/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_tap/sum-fibonacci/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../typescript-control-flow-and-loop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1654480149978</updated>
       <workItem from="1654480151090" duration="134000" />
+      <workItem from="1654614666319" duration="1432000" />
+      <workItem from="1654616118585" duration="8000" />
     </task>
     <servers />
   </component>
@@ -100,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
