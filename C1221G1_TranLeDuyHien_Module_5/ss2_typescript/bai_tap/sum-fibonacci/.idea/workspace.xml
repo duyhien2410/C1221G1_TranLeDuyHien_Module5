@@ -20,13 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32fad8ae-b772-4d51-93c7-ab7953cbce3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../untitled/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../untitled/tsconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/typescript-control-flow-and-loop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuc_hanh/typescript-control-flow-and-loop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../thuc_hanh/typescript-is-prime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../thuc_hanh/typescript-is-prime/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +74,7 @@
       <workItem from="1654480680144" duration="663000" />
       <workItem from="1654612627081" duration="585000" />
       <workItem from="1654614644295" duration="1450000" />
-      <workItem from="1654616127955" duration="299000" />
+      <workItem from="1654616127955" duration="710000" />
     </task>
     <servers />
   </component>
