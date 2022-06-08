@@ -20,114 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd40aa5c-3a83-46fa-839d-5d58ba21fa21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Admin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/body.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contract-create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/close@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/loading@2x.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/next.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/next@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/nivo-lightbox.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/prev.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/nivo-lightbox/prev@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-create.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/facilities.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/css/font-awesome.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/animated.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/bordered-pulled.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/core.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/fixed-width.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/font-awesome.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/icons.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/larger.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/list.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/mixins.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/path.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/rotated-flipped.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/stacked.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/less/variables.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_animated.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_core.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_larger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_list.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_path.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_stacked.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/font-awesome/scss/font-awesome.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/intro-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/menu-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/01-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/01-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/02-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/02-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/03-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/03-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/04-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/04-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/05-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/05-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/06-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/06-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/07-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/07-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/08-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/08-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/09-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/09-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/10-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/10-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/11-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/11-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/12-large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/12-small.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/SmoothScroll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/contact_me.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jqBootstrapValidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.1.11.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/jquery.isotope.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/nivo-lightbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mail/contact_me.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2_typescript/bai_tap/sum-fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_typescript/bai_tap/sum-fibonacci/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +48,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -187,6 +83,9 @@
       <workItem from="1654616844662" duration="988000" />
       <workItem from="1654618069955" duration="156000" />
       <workItem from="1654618235456" duration="22000" />
+      <workItem from="1654618530835" duration="440000" />
+      <workItem from="1654651490450" duration="8000" />
+      <workItem from="1654652347323" duration="1107000" />
     </task>
     <servers />
   </component>
@@ -205,10 +104,13 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="167" key="FileChooserDialogImpl" timestamp="1654618255760">
+    <state x="533" y="167" key="FileChooserDialogImpl" timestamp="1654652936597">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="533" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654618255760" />
+    <state x="533" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1654652936597" />
   </component>
 </project>
