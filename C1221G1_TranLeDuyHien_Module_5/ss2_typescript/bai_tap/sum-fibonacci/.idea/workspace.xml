@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32fad8ae-b772-4d51-93c7-ab7953cbce3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss3_angular_overview/bai_tap/angular-color-picker-app/src/app/color/color.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss3_angular_overview/bai_tap/angular-color-picker-app/src/app/color/color.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss3_angular_overview/bai_tap/angular-color-picker-app/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss3_angular_overview/bai_tap/angular-color-picker-app/src/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="32fad8ae-b772-4d51-93c7-ab7953cbce3b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +75,7 @@
       <workItem from="1654616127955" duration="710000" />
       <workItem from="1654651499892" duration="839000" />
       <workItem from="1654655234533" duration="952000" />
-      <workItem from="1654698191105" duration="1018000" />
+      <workItem from="1654698191105" duration="1021000" />
     </task>
     <servers />
   </component>

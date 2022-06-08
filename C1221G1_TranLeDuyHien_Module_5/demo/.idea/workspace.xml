@@ -20,148 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd40aa5c-3a83-46fa-839d-5d58ba21fa21" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/angular.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/browserslist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/e2e/protractor.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/e2e/src/app.e2e-spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/e2e/src/app.po.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/e2e/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/about/about.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/about/about.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/about/about.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/about/about.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app-routing.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app.module.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/facilities/facilities.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/facilities/facilities.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/facilities/facilities.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/facilities/facilities.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/footer/footer.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/footer/footer.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/footer/footer.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/footer/footer.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/header/header.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/header/header.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/header/header.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/header/header.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/close@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/loading@2x.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/next@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/nivo-lightbox.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/nivo-lightbox/prev@2x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/fonts/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/gallery-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/intro-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/menu-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/01-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/01-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/02-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/02-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/03-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/03-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/04-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/04-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/05-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/05-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/06-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/06-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/07-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/07-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/08-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/08-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/09-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/09-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/10-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/10-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/11-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/11-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/12-large.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/portfolio/12-small.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/team-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/team/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/team/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/img/team/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/SmoothScroll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/contact_me.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/jqBootstrapValidation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/jquery.1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/jquery.isotope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/js/nivo-lightbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/mail/contact_me.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/environments/environment.prod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/environments/environment.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/main.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/polyfills.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/tsconfig.app.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/tsconfig.spec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../angular-case-study/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/contract/contract.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/contract/contract.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/contract/contract.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/contract/contract.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/customer/customer.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/customer/customer.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/customer/customer.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../angular-case-study/src/app/customer/customer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-case-study/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-case-study/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-case-study/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../angular-case-study/src/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../angular-case-study/src/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ss2_typescript/bai_tap/sum-fibonacci/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ss2_typescript/bai_tap/sum-fibonacci/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,6 +98,7 @@
       <workItem from="1654652347323" duration="1107000" />
       <workItem from="1654678388846" duration="3013000" />
       <workItem from="1654696925837" duration="280000" />
+      <workItem from="1654700092499" duration="1209000" />
     </task>
     <servers />
   </component>
