@@ -1,0 +1,18 @@
+<div>
+  <label>Input content: </label>
+  <input type="text" #element (change)="changedCharacter(element.value)"/>
+</div>
+<div style="margin-top: 20px">
+  <label>Select color: </label>
+  <button type="submit" name="color" value="red" (click)="changedColorValue($event)">Red</button>
+  <button type="submit" name="color" value="blue" (click)="changedColorValue($event)">Blue</button>
+  <button type="submit" name="color" value="purple" (click)="changedColorValue($event)">Purple</button>
+  <button type="submit" name="color" value="pink" (click)="changedColorValue($event)">Pink</button>
+  <button type="submit" name="color" value="green" (click)="changedColorValue($event)">Green</button>
+  <button type="submit" name="color" value="black" (click)="changedColorValue($event)">Black</button>
+  <button type="submit" name="color" value="white" (click)="changedColorValue($event)">White</button>
+  <button type="submit" name="color" value="orange" (click)="changedColorValue($event)">Orange</button>
+</div>
+<div style="margin-top: 20px">
+  Result:<p class="output" [ngStyle]="{'color': colors}"> {{character}} </p>
+</div>
