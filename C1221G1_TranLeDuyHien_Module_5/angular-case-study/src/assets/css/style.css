@@ -242,7 +242,7 @@ header .intro-text {
 	padding: 0 0 60px 0;
 }
 #restaurant-menu .section-title {
-	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background: #444 url('https://digitmatter.com/wp-content/uploads/2020/09/cach-tiep-can-khach-hang-doanh-nghiep-va-chien-luoc-tim-kiem-khach-hang-doanh-nghiep-2-1024x538.jpg') center center no-repeat fixed;
 	background-size: cover;
 }
 #restaurant-menu .section-title h2 {
@@ -468,7 +468,7 @@ ol.type li a:hover {
   padding: 0 0 60px 0;
 }
 #call-reservation .section-title {
-  background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+  background: #444 url('https://luatduonggia.vn/wp-content/uploads/2020/10/phu-luc-hop-dong-la-gi-khi-nao-hop-dong-phai-bo-sung-them-phu-luc.jpg') center center no-repeat fixed;
   background-size: cover;
 }
 #call-reservation .section-title h2 {
