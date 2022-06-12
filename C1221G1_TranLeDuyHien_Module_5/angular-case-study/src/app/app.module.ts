@@ -10,6 +10,8 @@ import { AboutComponent } from './about/about.component';
 import { CustomerComponent } from './customer/customer.component';
 import { ContractComponent } from './contract/contract.component';
 import { RouterModule } from '@angular/router';
+import { FacilitiesCreateComponent } from './facilities-create/facilities-create.component';
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -19,13 +21,15 @@ import { RouterModule } from '@angular/router';
     FacilitiesComponent,
     AboutComponent,
     CustomerComponent,
-    ContractComponent
+    ContractComponent,
+    FacilitiesCreateComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    RouterModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        RouterModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

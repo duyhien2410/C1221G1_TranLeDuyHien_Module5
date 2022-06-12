@@ -4,12 +4,15 @@ import { AboutComponent } from './about/about.component';
 import { FacilitiesComponent } from './facilities/facilities.component';
 import { CustomerComponent } from './customer/customer.component';
 import { ContractComponent } from './contract/contract.component';
+import { FacilitiesCreateComponent } from './facilities-create/facilities-create.component';
 
 const routes: Routes = [
+  {path:'',component:AboutComponent},
   {path:'about', component:AboutComponent},
   {path:'facilities', component:FacilitiesComponent},
   {path:'customer', component:CustomerComponent},
-  {path:'contract', component:ContractComponent}
+  {path:'contract', component:ContractComponent},
+  {path:'facilities-create', component:FacilitiesCreateComponent}
 ];
 
 @NgModule({
