@@ -1,5 +1,6 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 import {IFacility} from "../model/facility";
+import {FormControl, FormGroup, Validators} from "@angular/forms";
 
 @Component({
   selector: 'app-facilities-create',
@@ -7,25 +8,24 @@ import {IFacility} from "../model/facility";
   styleUrls: ['./facilities-create.component.css']
 })
 export class FacilitiesCreateComponent implements OnInit {
-  facility: IFacility = {
-    id: "7", name: "Room deluxe hướng biển",
-    url: "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-F-370x239.jpg",
-    price: "3000000"
-  }
   @Output() submitCreate = new EventEmitter();
+  facilitiesForm: FormGroup;
 
   constructor() {
   }
 
   ngOnInit(): void {
+    this.facilitiesForm = new FormGroup({
+      id: new FormControl('', [Validators.required]),
+      name: new FormControl('', [Validators.required, Validators.pattern('^[^\\d]*$')]),
+      url: new FormControl('', [Validators.required]),
+      price: new FormControl('', [Validators.required, Validators.min(100000)])
+    })
   }
 
   createFacility() {
-    this.submitCreate.emit(this.facility);
-    this.facility = {
-      id: "7", name: "Room deluxe hướng biển",
-      url: "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Deluxe-double-bed-F-370x239.jpg",
-      price: "3000000"
+    if (this.facilitiesForm.valid){
+      this.submitCreate.emit(this.facilitiesForm.value);
     }
   }
 

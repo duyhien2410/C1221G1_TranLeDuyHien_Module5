@@ -22,4 +22,8 @@ export class CustomerComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  createCustomer(event: any) {
+    this.customers.push(event);
+    this.ngOnInit();
+  }
 }

@@ -11,7 +11,7 @@
                 <div class="col-md-6 mb-4">
 
                   <div class="form-outline">
-                    <input type="text" formControlName="email" name="email" id="firstName"
+                    <input type="text" formControlName="email" name="email"
                            class="form-control form-control-lg"/>
                     <label class="form-label" for="firstName">Email</label>
                     <p *ngIf="registerForm.get('email').errors?.required && registerForm.get('email').touched">Email không được để trống!</p>

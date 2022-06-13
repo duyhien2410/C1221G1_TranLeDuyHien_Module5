@@ -302,6 +302,19 @@ header .intro-text {
 #portfolio .section-title h2 {
 	color: #fff;
 }
+
+#portfolio1 {
+  padding: 0 0 120px 0;
+}
+#portfolio1 .section-title {
+  background: #444 url('https://wallpaperbat.com/img/195777-the-best-resorts-in-asia-2018-readers-choice-awards-conde-nast.jpg') center center no-repeat fixed;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+#portfolio1 .section-title h2 {
+  color: #fff;
+}
+
 .categories {
 	padding-bottom: 30px;
 	text-align: center;

@@ -1,4 +1,4 @@
-<div id="portfolio" style="margin: 10px">
+<div id="portfolio1" style="margin: 10px">
   <div class="section-title text-center center">
     <div class="overlay">
       <h2>Dịch vụ</h2>
@@ -13,30 +13,58 @@
     <h4 class="container"><a class="text-primary" [routerLink]="['/facilities']">Danh sách dịch vụ</a></h4>
 
     <div>
-      <form>
+      <form [formGroup]="facilitiesForm" (ngSubmit)="createFacility()">
         <fieldset>
           <legend><h3>Thêm mới dịch vụ</h3></legend>
           <table>
             <tr>
               <th>Id:</th>
-              <td><input class="form-control" type="text" [(ngModel)]="facility.id" name="id"></td>
+              <td><input class="form-control" type="text" formControlName="id" name="id">
+                <p *ngIf="facilitiesForm.get('id').errors?.required && facilitiesForm.get('id').touched">Id không được để trống!</p>
+              </td>
             </tr>
             <tr>
               <th>Tên dịch vụ:</th>
-              <td><input class="form-control" type="text" [(ngModel)]="facility.name" name="name"></td>
+              <td><input class="form-control" type="text" formControlName="name" name="name">
+                <p *ngIf="facilitiesForm.get('name').errors?.required && facilitiesForm.get('name').touched">Tên dịch vụ không được để trống!</p>
+              </td>
             </tr>
             <tr>
               <th>Giá (VND):</th>
-              <td><input class="form-control" type="text" [(ngModel)]="facility.price" name="price"></td>
+              <td><input class="form-control" type="text" formControlName="price" name="price">
+                <p *ngIf="facilitiesForm.get('price').errors?.required && facilitiesForm.get('price').touched">Giá không được để trống!</p>
+                <p *ngIf="facilitiesForm.get('price').errors?.min && facilitiesForm.get('price').touched">Giá không được nhỏ hơn 100000(VND)!</p>
+              </td>
             </tr>
             <tr>
               <th>Ảnh:</th>
-              <td><input class="form-control" type="text" [(ngModel)]="facility.url" name="url"></td>
+              <td><input class="form-control" type="text" formControlName="url" name="url">
+                <p *ngIf="facilitiesForm.get('url').errors?.required && facilitiesForm.get('url').touched">Ảnh dịch vụ không được để trống!</p>
+              </td>
             </tr>
 
           </table>
+<!--          <table>-->
+<!--            <tr>-->
+<!--              <th>Id:</th>-->
+<!--              <td><input class="form-control" type="text" [(ngModel)]="facility.id" name="id"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--              <th>Tên dịch vụ:</th>-->
+<!--              <td><input class="form-control" type="text" [(ngModel)]="facility.name" name="name"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--              <th>Giá (VND):</th>-->
+<!--              <td><input class="form-control" type="text" [(ngModel)]="facility.price" name="price"></td>-->
+<!--            </tr>-->
+<!--            <tr>-->
+<!--              <th>Ảnh:</th>-->
+<!--              <td><input class="form-control" type="text" [(ngModel)]="facility.url" name="url"></td>-->
+<!--            </tr>-->
+
+<!--          </table>-->
           <div>
-            <button (click)="createFacility()">Thêm</button>
+            <button class="btn btn-success" type="submit">Thêm</button>
           </div>
         </fieldset>
       </form>
