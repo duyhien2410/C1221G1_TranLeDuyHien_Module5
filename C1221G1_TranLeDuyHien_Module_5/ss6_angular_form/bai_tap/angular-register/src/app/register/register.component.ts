@@ -26,13 +26,6 @@ export class RegisterComponent implements OnInit {
       gender: new FormControl(''),
       phone: new FormControl('', [Validators.required, Validators.pattern('^\\+84\\d{9,10}$')])
     });
-
-    function comparePassword(pw: AbstractControl) {
-      const val = pw.value;
-      return (val.password === val.confirmPassword) ? null : {
-        passwordnotmatch: true
-      };
-    }
   }
 
   registersForm() {
@@ -52,6 +45,13 @@ export class RegisterComponent implements OnInit {
   get confirmPassword() {
     return this.pwGroup.get('confirmPassword');
   }
+
 }
 
+function comparePassword(pw: AbstractControl) {
+  const val = pw.value;
+  return (val.password === val.confirmPassword) ? null : {
+    passwordnotmatch: true
+  };
+}
 
