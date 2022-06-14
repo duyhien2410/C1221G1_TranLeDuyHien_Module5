@@ -1,9 +1,15 @@
 <div class="container">
   <div>
     <h3>Detail</h3>
-    <div>
-      <label>{{detailWord.word}}</label>
-      <label>{{detailWord.mean}}</label>
-    </div>
+    <table class="table table-striped">
+      <tr class="table-active bg-info">
+        <th>Word</th>
+        <th>Mean</th>
+      </tr>
+      <tr class="table-warning">
+        <td>{{detailWord.word}}</td>
+        <td>{{detailWord.mean}}</td>
+      </tr>
+    </table>
   </div>
 </div>
