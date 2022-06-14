@@ -1,0 +1,15 @@
+<div class="container">
+  <table class="table">
+    <tr class="row">
+      <th class="col-2">Word</th>
+      <th class="col-2">Mean</th>
+      <th class="col-3">Action</th>
+    </tr>
+    <tr class="row" *ngFor="let word of words">
+      <td class="col-2">{{word.word}}</td>
+      <td class="col-2">{{word.mean}}</td>
+      <td class="col-3"><a [routerLink]="['/detail',word.word]">Info</a></td>
+    </tr>
+  </table>
+</div>
+
