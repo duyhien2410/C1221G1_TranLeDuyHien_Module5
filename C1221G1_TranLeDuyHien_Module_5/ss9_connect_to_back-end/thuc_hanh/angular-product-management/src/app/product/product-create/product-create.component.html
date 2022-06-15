@@ -1,0 +1,28 @@
+<div class="container">
+  <h1>Tạo sản phẩm mới</h1>
+  <form [formGroup]="productForm" (ngSubmit)="submit()" class="container">
+    <table class="table table-striped">
+      <tr>
+        <td>Mã sản phẩm:</td>
+        <td><input class="form-control" type="number" formControlName="id"></td>
+      </tr>
+      <tr>
+        <td>Tên sản phẩm:</td>
+        <td><input class="form-control" type="text" formControlName="name"></td>
+      </tr>
+      <tr>
+        <td>Giá sản phẩm</td>
+        <td><input class="form-control" type="number" formControlName="price"></td>
+      </tr>
+      <tr>
+        <td>Mô tả về sản phẩm</td>
+        <td><input class="form-control" type="text" formControlName="description"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><button>Tạo mới</button></td>
+      </tr>
+    </table>
+  </form>
+
+</div>

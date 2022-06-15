@@ -6,6 +6,8 @@ import { CustomerComponent } from './customer/customer.component';
 import { ContractComponent } from './contract/contract.component';
 import { FacilitiesCreateComponent } from './facilities-create/facilities-create.component';
 import { CustomerCreateComponent } from './customer-create/customer-create.component';
+import {CustomerEditComponent} from "./customer-edit/customer-edit.component";
+import {FacilitiesEditComponent} from "./facilities-edit/facilities-edit.component";
 
 const routes: Routes = [
   {path:'',component:AboutComponent},
@@ -14,7 +16,9 @@ const routes: Routes = [
   {path:'customer', component:CustomerComponent},
   {path:'contract', component:ContractComponent},
   {path:'facilities-create', component:FacilitiesCreateComponent},
-  {path:'customer-create', component:CustomerCreateComponent}
+  {path:'customer-create', component:CustomerCreateComponent},
+  {path:'customer-edit/:id', component:CustomerEditComponent},
+  {path:'facilities-edit/:id', component:FacilitiesEditComponent}
 ];
 
 @NgModule({

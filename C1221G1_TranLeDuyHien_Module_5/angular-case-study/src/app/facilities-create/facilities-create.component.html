@@ -13,7 +13,7 @@
     <h4 class="container"><a class="text-primary" [routerLink]="['/facilities']">Danh sách dịch vụ</a></h4>
 
     <div>
-      <form [formGroup]="facilitiesForm" (ngSubmit)="createFacility()">
+      <form [formGroup]="facilitiesForm" (ngSubmit)="submit()">
         <fieldset>
           <legend><h3>Thêm mới dịch vụ</h3></legend>
           <table>

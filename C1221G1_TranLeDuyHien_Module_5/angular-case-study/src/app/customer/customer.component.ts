@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {ICustomer} from "../model/customer";
+import {CustomerService} from "../service/customer/customer.service";
 
 @Component({
   selector: 'app-customer',
@@ -8,22 +9,28 @@ import {ICustomer} from "../model/customer";
 })
 export class CustomerComponent implements OnInit {
   customers: ICustomer[] = [];
-  customerss: ICustomer = {id: "4", code:"KH-004", typeCustomer:"Diamond", name:"Hiển Duy", dayOfBirth:"2000-12-12",
-  gender:"Name", idCard:"201931444", phone:"0933999999", email:"hienduy241012@gmail.com", address:"Đà Nẵng"};
-  constructor() {
-    this.customers.push({id: "1", code:"KH-001", typeCustomer:"Diamond", name:"Hiển Duy", dayOfBirth:"2000-12-12",
-      gender:"Name", idCard:"201931444", phone:"0933999999", email:"hienduy241012@gmail.com", address:"Đà Nẵng"})
-    this.customers.push({id: "2", code:"KH-002", typeCustomer:"Diamond", name:"Hiển Duy", dayOfBirth:"2000-12-12",
-      gender:"Name", idCard:"201931444", phone:"0933999999", email:"hienduy241012@gmail.com", address:"Đà Nẵng"})
-    this.customers.push({id: "3", code:"KH-003", typeCustomer:"Diamond", name:"Hiển Duy", dayOfBirth:"2000-12-12",
-      gender:"Name", idCard:"201931444", phone:"0933999999", email:"hienduy241012@gmail.com", address:"Đà Nẵng"})
+  id: string;
+  name: string;
+
+  constructor(private customerService: CustomerService) {
   }
 
   ngOnInit(): void {
+    this.getAll();
   }
 
-  createCustomer(event: any) {
-    this.customers.push(event);
+  getAll() {
+    this.customers = this.customerService.getAll();
+  }
+
+
+  getCustomer(id: string, name:string) {
+    this.id = id;
+    this.name = name;
+  }
+
+  delete(id: string) {
+    this.customerService.deleteCustomer(id);
     this.ngOnInit();
   }
 }

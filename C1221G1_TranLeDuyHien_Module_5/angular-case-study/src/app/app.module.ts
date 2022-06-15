@@ -13,6 +13,8 @@ import {RouterModule} from '@angular/router';
 import {FacilitiesCreateComponent} from './facilities-create/facilities-create.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {CustomerCreateComponent} from './customer-create/customer-create.component';
+import { CustomerEditComponent } from './customer-edit/customer-edit.component';
+import { FacilitiesEditComponent } from './facilities-edit/facilities-edit.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import {CustomerCreateComponent} from './customer-create/customer-create.compone
     CustomerComponent,
     ContractComponent,
     FacilitiesCreateComponent,
-    CustomerCreateComponent
+    CustomerCreateComponent,
+    CustomerEditComponent,
+    FacilitiesEditComponent
   ],
   imports: [
     BrowserModule,

@@ -2,7 +2,7 @@
   <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/customer']">Danh sách khách hàng</a></h4>
 
   <div class="container">
-    <form [formGroup]="customerForm" (ngSubmit)="createCustomer()">
+    <form [formGroup]="customerForm" (ngSubmit)="submit()">
       <fieldset>
         <legend><h3>Thêm mới khách hàng</h3></legend>
         <table>

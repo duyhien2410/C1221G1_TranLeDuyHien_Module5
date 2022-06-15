@@ -25,7 +25,7 @@
     </div>
     <div class="row">
       <div class="portfolio-items">
-        <div class="col-sm-6 col-md-4 col-lg-4 villa" *ngFor="let fac of facilities">
+        <div class="col-sm-6 col-md-4 col-lg-4 villa" *ngFor="let fac of facilitiess">
           <div class="portfolio-item">
             <div class="hover-bg">
               <img [src]="fac.url"
@@ -36,12 +36,14 @@
               <h5 class="text-info">{{fac.name}}</h5>
               <h5 class="text-info bg-success">{{fac.price}} (vnd)</h5>
               <button class="btn btn-danger">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="10" fill="currentColor"
-                     class="bi bi-wrench" viewBox="0 0 16 16">
+                <a [routerLink]="['/facilities-edit', fac.id]"> <svg xmlns="http://www.w3.org/2000/svg" width="30" height="10" fill="currentColor"
+                                 class="bi bi-wrench" viewBox="0 0 16 16">
                   <path d="M.102 2.223A3.004 3.004 0 0 0 3.78 5.897l6.341 6.252A3.003 3.003 0 0 0 13 16a3 3 0 1 0-.851-5.878L5.897 3.781A3.004 3.004 0 0 0 2.223.1l2.141 2.142L4 4l-1.757.364L.102 2.223zm13.37 9.019.528.026.287.445.445.287.026.529L15 13l-.242.471-.026.529-.445.287-.287.445-.529.026L13 15l-.471-.242-.529-.026-.287-.445-.445-.287-.026-.529L11 13l.242-.471.026-.529.445-.287.287-.445.529-.026L13 11l.471.242z"/>
-                </svg>
+                </svg></a>
+
               </button>
-              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">
+              <button type="button" class="btn btn-warning" data-toggle="modal"
+                      data-target="#exampleModal" (click)="getFacility(fac.id, fac.name)">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="10" fill="currentColor"
                      class="bi bi-trash" viewBox="0 0 16 16">
                   <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
@@ -307,11 +309,11 @@
         </button>
       </div>
       <div class="modal-body">
-        Chắc chắn xoá dịch vụ?
+        Chắc chắn xoá dịch vụ {{name}}?
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-        <button type="button" class="btn btn-primary">Xoá</button>
+        <button type="button" class="btn btn-primary" (click)="delete(id)" data-dismiss="modal">Xoá</button>
       </div>
     </div>
   </div>
@@ -322,7 +324,4 @@
     $('#myInput').trigger('focus')
   })
 </script>
-
-
-<app-facilities-create (submitCreate)="createFacility($event)"></app-facilities-create>
 
