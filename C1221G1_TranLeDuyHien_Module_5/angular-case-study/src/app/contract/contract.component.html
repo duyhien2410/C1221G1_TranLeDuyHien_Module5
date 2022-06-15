@@ -6,12 +6,15 @@
 
     </div>
   </div>
-
+  <div>
+    <a class="btn btn-success" [routerLink]="['/contract-create']">Thêm mới hợp đồng</a>
+  </div>
   <div>
     <table class="table table-striped">
       <caption class="text-black text-center"><h4>Danh sách hợp đồng</h4></caption>
       <thead>
       <tr class="table-active bg-info">
+        <th>#</th>
         <th>ID</th>
         <th>Mã HĐ</th>
         <th>Ngày bắt đầu</th>
@@ -24,8 +27,9 @@
       </tr>
       </thead>
       <tbody>
-      <tr class="table-warning">
-        <td>1</td>
+      <tr class="table-warning" *ngFor="let contract of contracts; index as i">
+        <td>{{i + 1}}</td>
+        <td>{{contract.id}}</td>
         <td>HĐ-001</td>
         <td>2020-01-01</td>
         <td>2020-02-02</td>
@@ -35,28 +39,28 @@
         <td>Hoàng Định</td>
         <td>Room Suite hướng biển</td>
       </tr>
-      <tr class="table-warning">
-        <td>2</td>
-        <td>HĐ-002</td>
-        <td>2020-03-03</td>
-        <td>2020-04-04</td>
-        <td>500000</td>
-        <td>3500000</td>
-        <td>Đoàn Văn Hậu</td>
-        <td>Quang Trường</td>
-        <td>Villa hướng vườn</td>
-      </tr>
-      <tr class="table-warning">
-        <td>3</td>
-        <td>HĐ-003</td>
-        <td>2020-05-05</td>
-        <td>2020-06-06</td>
-        <td>2000000</td>
-        <td>10500000</td>
-        <td>Trần Lê Duy Hiển</td>
-        <td>Phạm Anh Tuấn</td>
-        <td>Villa hướng biển</td>
-      </tr>
+<!--      <tr class="table-warning">-->
+<!--        <td>2</td>-->
+<!--        <td>HĐ-002</td>-->
+<!--        <td>2020-03-03</td>-->
+<!--        <td>2020-04-04</td>-->
+<!--        <td>500000</td>-->
+<!--        <td>3500000</td>-->
+<!--        <td>Đoàn Văn Hậu</td>-->
+<!--        <td>Quang Trường</td>-->
+<!--        <td>Villa hướng vườn</td>-->
+<!--      </tr>-->
+<!--      <tr class="table-warning">-->
+<!--        <td>3</td>-->
+<!--        <td>HĐ-003</td>-->
+<!--        <td>2020-05-05</td>-->
+<!--        <td>2020-06-06</td>-->
+<!--        <td>2000000</td>-->
+<!--        <td>10500000</td>-->
+<!--        <td>Trần Lê Duy Hiển</td>-->
+<!--        <td>Phạm Anh Tuấn</td>-->
+<!--        <td>Villa hướng biển</td>-->
+<!--      </tr>-->
 
       </tbody>
 
