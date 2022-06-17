@@ -1,0 +1,84 @@
+<div>
+  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/customer-list']">Danh sách khách hàng</a></h4>
+
+  <div class="container">
+    <form [formGroup]="customerForm" (ngSubmit)="submit()">
+      <fieldset>
+        <legend><h3>Thêm mới khách hàng</h3></legend>
+        <table>
+          <tr>
+            <th>Id:</th>
+            <td><input class="form-control" formControlName="id" name="id"></td>
+          </tr>
+          <tr>
+            <th>Mã khách hàng:</th>
+            <td><input class="form-control" formControlName="code" name="code">
+              <p *ngIf="customerForm.get('code').errors?.required && customerForm.get('code').touched">Mã khách hàng không được để trống!</p>
+              <p *ngIf="customerForm.get('code').errors?.pattern && customerForm.get('code').touched">Mã khách hàng sai định dạng (KH-xxxx)!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Kiểu loại khách:</th>
+            <td><input class="form-control" formControlName="typeCustomer" name="typeCustomer">
+              <p *ngIf="customerForm.get('typeCustomer').errors?.required && customerForm.get('typeCustomer').touched">Kiểu khách hàng không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Tên khách hàng:</th>
+            <td><input class="form-control" formControlName="name" name="name">
+              <p *ngIf="customerForm.get('name').errors?.required && customerForm.get('name').touched">Tên khách hàng không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Ngày sinh:</th>
+            <td><input type="date" class="form-control" formControlName="dayOfBirth" name="dayOfBirth">
+              <p *ngIf="customerForm.get('dayOfBirth').errors?.required && customerForm.get('dayOfBirth').touched">Ngày sinh không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Giới tính:</th>
+            <td>
+              <select class="form-control" formControlName="gender" name="gender">
+                <option value="Nữ">Nữ</option>
+                <option value="Nam">Nam</option>
+              </select>
+              <p *ngIf="customerForm.get('gender').errors?.required && customerForm.get('gender').touched">Giới tính không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Số CMND:</th>
+            <td><input class="form-control" formControlName="idCard" name="idCard">
+              <p *ngIf="customerForm.get('idCard').errors?.required && customerForm.get('idCard').touched">Số CMND không được để trống!</p>
+              <p *ngIf="customerForm.get('idCard').errors?.pattern && customerForm.get('idCard').touched">Số CMND sai định dạng (9 số hoặc 12 số)!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Số điện thoại:</th>
+            <td><input class="form-control" formControlName="phone" name="phone">
+              <p *ngIf="customerForm.get('phone').errors?.required && customerForm.get('phone').touched">Số điện thoại không được để trống!</p>
+              <p *ngIf="customerForm.get('phone').errors?.pattern && customerForm.get('phone').touched">Số điện thoại sai định dạng!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Email:</th>
+            <td><input class="form-control" formControlName="email" name="email">
+              <p *ngIf="customerForm.get('email').errors?.required && customerForm.get('email').touched">Email không được để trống!</p>
+              <p *ngIf="customerForm.get('email').errors?.email && customerForm.get('email').touched">Email sai định dạng!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Địa chỉ:</th>
+            <td><input class="form-control" formControlName="address" name="address">
+              <p *ngIf="customerForm.get('address').errors?.required && customerForm.get('address').touched">Địa chỉ không được để trống!</p>
+            </td>
+          </tr>
+
+
+        </table>
+        <div>
+          <input class="btn btn-success" type="submit" value="Thêm">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
