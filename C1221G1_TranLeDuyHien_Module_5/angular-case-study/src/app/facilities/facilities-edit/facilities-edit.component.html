@@ -13,14 +13,13 @@
     <h4 class="container"><a class="text-primary" [routerLink]="['/facilities-list']">Danh sách dịch vụ</a></h4>
 
     <div>
-      <form [formGroup]="facilitiesForm" (ngSubmit)="updateFacility(id)">
+      <form [formGroup]="facilitiesForm" (ngSubmit)="updateFacilities(id)">
         <fieldset>
           <legend><h3>Cập nhật dịch vụ</h3></legend>
           <table>
             <tr>
               <th>Id:</th>
-              <td><input class="form-control" type="text" formControlName="id" name="id">
-                <p *ngIf="facilitiesForm.get('id').errors?.required && facilitiesForm.get('id').touched">Id không được để trống!</p>
+              <td><input class="form-control" type="hidden" formControlName="id" name="id">
               </td>
             </tr>
             <tr>

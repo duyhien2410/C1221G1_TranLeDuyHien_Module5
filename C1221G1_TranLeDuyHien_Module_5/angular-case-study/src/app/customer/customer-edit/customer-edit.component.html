@@ -1,5 +1,5 @@
 <div>
-  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/customer-list']">Danh sách khách hàng</a></h4>
+  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/customer/list']">Danh sách khách hàng</a></h4>
 
   <div class="container">
     <form [formGroup]="customerForm" (ngSubmit)="updateCustomer(id)">
@@ -8,7 +8,7 @@
         <table>
           <tr>
             <th>Id:</th>
-            <td><input class="form-control" formControlName="id" name="id"></td>
+            <td><input type="hidden" class="form-control" formControlName="id" name="id"></td>
           </tr>
           <tr>
             <th>Mã khách hàng:</th>

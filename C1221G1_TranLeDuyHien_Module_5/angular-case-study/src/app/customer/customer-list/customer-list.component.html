@@ -13,7 +13,7 @@
     <table class="table table-striped">
       <caption class="text-black text-center"><h4>Danh sách khách hàng</h4></caption>
       <thead>
-      <tr class="table-active">
+      <tr class="table-active bg-info">
         <th>#</th>
         <th>ID</th>
         <th>Mã KH</th>
@@ -157,9 +157,11 @@
     </div>
   </div>
 </div>
+
 <div style="justify-content: space-around;display: flex;">
   <pagination-controls (pageChange)="p = $event" class=" page-item"></pagination-controls>
 </div>
+
 <script>
   $('#myModal').on('shown.bs.modal', function () {
     $('#myInput').trigger('focus')

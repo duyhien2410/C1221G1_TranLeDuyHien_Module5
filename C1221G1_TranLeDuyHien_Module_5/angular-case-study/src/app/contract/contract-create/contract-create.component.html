@@ -1,0 +1,83 @@
+<div>
+  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/contract/list']">Danh sách hợp đồng</a></h4>
+
+  <div class="container">
+    <form [formGroup]="contractForm" (ngSubmit)="submit()">
+      <fieldset>
+        <legend><h3>Thêm mới hợp đồng</h3></legend>
+        <table>
+          <tr>
+            <th>Id:</th>
+            <td><input class="form-control" formControlName="id" name="id"></td>
+          </tr>
+          <tr>
+            <th>Mã hợp đồng:</th>
+            <td><input class="form-control" formControlName="code" name="code">
+              <p *ngIf="contractForm.get('code').errors?.required && contractForm.get('code').touched">Mã hợp đồng không được để trống!</p>
+              <p *ngIf="contractForm.get('code').errors?.pattern && contractForm.get('code').touched">Mã hợp đồng sai định dạng (HD-xxxx)!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Ngày bắt đầu:</th>
+            <td><input type="date" class="form-control" formControlName="startDay" name="startDay">
+              <p *ngIf="contractForm.get('startDay').errors?.required && contractForm.get('startDay').touched">Ngày bắt đầu không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Ngày kết thúc:</th>
+            <td><input type="date" class="form-control" formControlName="endDay" name="endDay">
+              <p *ngIf="contractForm.get('endDay').errors?.required && contractForm.get('endDay').touched">Ngày kết thúc không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Đặt trước(VND):</th>
+            <td><input class="form-control" formControlName="reserve" name="reserve">
+              <p *ngIf="contractForm.get('reserve').errors?.required && contractForm.get('reserve').touched">Số tiền đặt trước không được để trống!</p>
+              <p *ngIf="contractForm.get('reserve').errors?.pattern && contractForm.get('reserve').touched">Số tiền đặt trước phải lớn hơn 0!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Tổng tiền(VND):</th>
+            <td><input class="form-control" formControlName="total" name="total">
+              <p *ngIf="contractForm.get('total').errors?.required && contractForm.get('total').touched">Tổng tiền không được để trống!</p>
+              <p *ngIf="contractForm.get('total').errors?.pattern && contractForm.get('total').touched">Tổng tiền phải lớn hơn 0!</p>
+            </td>
+          </tr>
+<!--          <tr>-->
+<!--            <th>Tổng tiền(VND):</th>-->
+<!--            <td>-->
+<!--              <select class="form-control" formControlName="gender" name="gender">-->
+<!--                <option value="Nữ">Nữ</option>-->
+<!--                <option value="Nam">Nam</option>-->
+<!--              </select>-->
+<!--              <p *ngIf="customerForm.get('gender').errors?.required && customerForm.get('gender').touched">Giới tính không được để trống!</p>-->
+<!--            </td>-->
+<!--          </tr>-->
+          <tr>
+            <th>Nhân viên:</th>
+            <td><input class="form-control" formControlName="employee" name="employee">
+              <p *ngIf="contractForm.get('employee').errors?.required && contractForm.get('employee').touched">Nhân viên không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Khách hàng:</th>
+            <td><input class="form-control" formControlName="customer" name="customer">
+              <p *ngIf="contractForm.get('customer').errors?.required && contractForm.get('customer').touched">Khách hàng không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Dịch vụ:</th>
+            <td><input class="form-control" formControlName="facility" name="facility">
+              <p *ngIf="contractForm.get('facility').errors?.required && contractForm.get('facility').touched">Dịch vụ không được để trống!</p>
+            </td>
+          </tr>
+
+
+        </table>
+        <div>
+          <input class="btn btn-success" type="submit" value="Thêm">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

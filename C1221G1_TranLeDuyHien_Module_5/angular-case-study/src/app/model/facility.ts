@@ -1,5 +1,5 @@
 export interface IFacility {
-  id: string;
+  id: number;
   name: string;
   price: string;
   url?: string;

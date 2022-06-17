@@ -1,15 +1,15 @@
 <div>
-  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/customer-list']">Danh sách khách hàng</a></h4>
+  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/customer/list']">Danh sách khách hàng</a></h4>
 
   <div class="container">
     <form [formGroup]="customerForm" (ngSubmit)="submit()">
       <fieldset>
         <legend><h3>Thêm mới khách hàng</h3></legend>
         <table>
-          <tr>
-            <th>Id:</th>
-            <td><input class="form-control" formControlName="id" name="id"></td>
-          </tr>
+<!--          <tr>-->
+<!--            <th>Id:</th>-->
+<!--            <td><input class="form-control" formControlName="id" name="id"></td>-->
+<!--          </tr>-->
           <tr>
             <th>Mã khách hàng:</th>
             <td><input class="form-control" formControlName="code" name="code">

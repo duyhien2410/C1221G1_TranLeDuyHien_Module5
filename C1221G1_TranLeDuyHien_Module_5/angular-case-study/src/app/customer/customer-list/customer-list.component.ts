@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {ICustomer} from "../../model/customer";
 import {CustomerService} from "../../service/customer/customer.service";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-customer',
@@ -9,11 +10,11 @@ import {CustomerService} from "../../service/customer/customer.service";
 })
 export class CustomerListComponent implements OnInit {
   customers: ICustomer[] = [];
-  id: string;
+  id: number;
   name: string;
-  p: string | number =0;
+  p: string | number = 0;
 
-  constructor(private customerService: CustomerService) {
+  constructor(private customerService: CustomerService, private router: Router) {
   }
 
   ngOnInit(): void {
@@ -21,17 +22,34 @@ export class CustomerListComponent implements OnInit {
   }
 
   getAll() {
-    this.customers = this.customerService.getAll();
+    this.customerService.getAll().subscribe(customers => {
+      this.customers = customers;
+    })
   }
 
-
-  getCustomer(id: string, name:string) {
+  getCustomer(id: number, name: string) {
     this.id = id;
     this.name = name;
   }
 
-  delete(id: string) {
-    this.customerService.deleteCustomer(id);
-    this.ngOnInit();
+  delete(id: number) {
+    this.customerService.deleteCustomer(id).subscribe(() => {
+      alert('Xoá khách hàng thành công');
+      this.ngOnInit();
+    }, e => {
+      console.log(e);
+    }, () => {
+      this.router.navigate(['/customer/list']);
+    });
   }
+
+  // getCustomer(id: string, name:string) {
+  //   this.id = id;
+  //   this.name = name;
+  // }
+  //
+  // delete(id: string) {
+  //   this.customerService.deleteCustomer(id);
+  //   this.ngOnInit();
+  // }
 }

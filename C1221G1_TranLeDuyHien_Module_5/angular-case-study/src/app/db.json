@@ -1,0 +1,79 @@
+{
+  "customer": [
+    {
+      "id": 1,
+      "code": "KH-001",
+      "typeCustomer": "Diamond",
+      "name": "Hiển Duy",
+      "dayOfBirth": "1996-12-12",
+      "gender": "Nam",
+      "idCard": "201931344",
+      "phone": "0933995599",
+      "email": "hienduy241012@gmail.com",
+      "address": "Đà Nẵng"
+    },
+    {
+      "id": 2,
+      "code": "KH-0002",
+      "typeCustomer": "Gold",
+      "name": "Xuân Hải",
+      "dayOfBirth": "2022-06-15",
+      "gender": "Nam",
+      "idCard": "231313131",
+      "phone": "0901222222",
+      "email": "nghenhan2702@gmail.com",
+      "address": "Bình Địnhh"
+    }
+  ],
+  "contract": [
+    {
+      "id": 1,
+      "code": "HD-001",
+      "startDay": "2020-01-01",
+      "endDay": "2020-02-02",
+      "reserve": "500000",
+      "total": "3500000",
+      "employee": "Trần Lê Duy Hiển",
+      "customer": "Hoàng Định",
+      "facility": "Room Suite hướng biển"
+    }
+  ],
+  "facilities": [
+    {
+      "id": 1,
+      "name": "Villa hướng biển",
+      "url": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Villas_Beach_Pool_Villas-_Exterior-1-F-370x239.jpg",
+      "price": "7000001"
+    },
+    {
+      "id": 2,
+      "name": "Room suite hướng biển",
+      "url": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Suite-Feature-370x239.jpg",
+      "price": "5000000"
+    },
+    {
+      "id": 3,
+      "name": "Villa hướng vườn",
+      "url": "https://furamavietnam.com/wp-content/uploads/2018/08/Vietnam_Danang_Furama_Villas_Pool_Villas-F-370x239.jpg",
+      "price": "6000000"
+    },
+    {
+      "id": 4,
+      "name": "Room studio suite hướng biển",
+      "url": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Ocean-Studio-Suite-F-370x239.jpg",
+      "price": "5000000"
+    },
+    {
+      "id": 5,
+      "name": "House superior hướng biển",
+      "url": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Lagoon-Superior-twin-bed-F-370x239.jpg",
+      "price": "6000000"
+    },
+    {
+      "id": 6,
+      "name": "House superior hướng vườn",
+      "url": "https://furamavietnam.com/wp-content/uploads/2018/03/Vietnam_Danang_Furama_Garden-Superior-TwinBed-1-F-370x239.jpg",
+      "price": "6000000"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Contract} from "../model/contract";
-import {ContractService} from "../service/contract/contract.service";
+import {Contract} from "../../model/contract";
+import {ContractService} from "../../service/contract/contract.service";
 
 @Component({
   selector: 'app-contract',
@@ -9,8 +9,9 @@ import {ContractService} from "../service/contract/contract.service";
 })
 export class ContractComponent implements OnInit {
   contracts: Contract[] = [];
-  id: string;
-  name: string;
+  id: number;
+  code: string;
+  p: string | number =0;
 
   constructor(private contractService: ContractService) {
   }
@@ -24,12 +25,12 @@ export class ContractComponent implements OnInit {
   }
 
 
-  getContract(id: string, name:string) {
+  getContract(id: number, code:string) {
     this.id = id;
-    this.name = name;
+    this.code = name;
   }
 
-  delete(id: string) {
+  delete(id: number) {
     this.contractService.deleteContract(id);
     this.ngOnInit();
   }

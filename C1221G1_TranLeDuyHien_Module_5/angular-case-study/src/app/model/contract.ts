@@ -1,5 +1,5 @@
 export interface Contract {
-  id: string;
+  id: number;
   code: string;
   startDay: string;
   endDay: string;
