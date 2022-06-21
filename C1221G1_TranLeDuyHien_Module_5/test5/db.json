@@ -1,0 +1,46 @@
+{
+  "transaction": [
+    {
+      "id": 1,
+      "code": "MGD-0001",
+      "name": {
+        "id": 1,
+        "name": "Nguyễn Văn A",
+        "phone": "0905999999",
+        "email": "nguyena@gmail.com"
+      },
+      "typeFacility": "Nhà đất",
+      "dayTrading": "2022-12-12",
+      "unitPrice": "10000000",
+      "area": "100"
+    },
+    {
+      "id": 2,
+      "code": "MGD-0002",
+      "name": {
+        "id": 2,
+        "name": "Nguyễn Văn B",
+        "phone": "0905999959",
+        "email": "nguyenb@gmail.com"
+      },
+      "typeFacility": "Nhà đất",
+      "dayTrading": "2022-06-08",
+      "unitPrice": "30000000",
+      "area": "100"
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "phone": "0905999999",
+      "email": "nguyena@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Văn B",
+      "phone": "0905999959",
+      "email": "nguyenb@gmail.com"
+    }
+  ]
+}

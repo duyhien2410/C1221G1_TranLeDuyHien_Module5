@@ -1,0 +1,79 @@
+<div>
+  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/transaction/list']">Danh sách giao dịch</a></h4>
+
+  <div class="container">
+    <form [formGroup]="transactionForm" (ngSubmit)="updateTransaction(id)">
+      <fieldset>
+        <legend><h3>Cập nhật hợp đồng</h3></legend>
+        <table>
+          <tr>
+            <th>Id:</th>
+            <td><input type="hidden" class="form-control" formControlName="id" name="id"></td>
+          </tr>
+          <tr>
+            <th>Mã giao dịch:</th>
+            <td><input class="form-control" formControlName="code" name="code">
+              <p *ngIf="transactionForm.get('code').errors?.required && transactionForm.get('code').touched">
+                Mã giao dịch không được để trống!</p>
+              <p *ngIf="transactionForm.get('code').errors?.pattern && transactionForm.get('code').touched">
+                Mã giao dịch sai định dạng (MGD-xxxx)!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Tên khách hàng:</th>
+            <td>
+              <select class="form-control" formControlName="name" name="name">
+                <option value="">Khách hàng</option>
+                <option *ngFor="let customer of customers" [ngValue]="customer">{{customer.name}}</option>
+              </select>
+              <p *ngIf="transactionForm.get('name').errors?.required && transactionForm.get('name').touched">
+                Tên khách hàng không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Kiểu dịch vụ:</th>
+            <td>
+              <select class="form-control" formControlName="typeFacility" name="typeFacility">
+                <option value="Nhà đất">Nhà đất</option>
+                <option value="Đất">Đất</option>
+              </select>
+              <p *ngIf="transactionForm.get('typeFacility').errors?.required && transactionForm.get('typeFacility').touched">
+                Kiểu dịch vụ không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Ngày giao dịch:</th>
+            <td><input type="date" class="form-control" formControlName="dayTrading" name="dayTrading">
+              <p *ngIf="transactionForm.get('dayTrading').errors?.required && transactionForm.get('dayTrading').touched">
+                Ngày giao dịch không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Đơn giá (VND):</th>
+            <td><input class="form-control" formControlName="unitPrice" name="unitPrice">
+              <p *ngIf="transactionForm.get('unitPrice').errors?.required && transactionForm.get('unitPrice').touched">
+                Tổng tiền không được để trống!</p>
+              <p *ngIf="transactionForm.get('unitPrice').errors?.min && transactionForm.get('unitPrice').touched">
+                Tổng tiền phải lớn hơn 500000!</p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Diện tích:</th>
+            <td><input class="form-control" formControlName="area" name="area">
+              <p *ngIf="transactionForm.get('area').errors?.required && transactionForm.get('area').touched">
+                Dt không được để trống!</p>
+              <p *ngIf="transactionForm.get('area').errors?.min && transactionForm.get('area').touched">
+                Dt phải lớn hơn 20!</p>
+            </td>
+          </tr>
+
+
+        </table>
+        <div>
+          <input class="btn btn-success" type="submit" value="Cập nhật">
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>

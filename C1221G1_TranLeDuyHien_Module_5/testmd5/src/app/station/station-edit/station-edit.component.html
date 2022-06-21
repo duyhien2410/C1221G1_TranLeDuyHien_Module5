@@ -1,0 +1,111 @@
+<div>
+  <h4 class="container"><a class="nav-link text-primary" [routerLink]="['/station/list']">Danh sách các xe đăng ký</a>
+  </h4>
+
+  <div class="container">
+    <form [formGroup]="stationForm" (ngSubmit)="updateStation(id)">
+      <fieldset>
+        <legend><h3>Cập nhật xe đăng ký</h3></legend>
+        <table>
+          <tr>
+            <th>Id:</th>
+            <td><input type="hidden" class="form-control" formControlName="stationId" name="stationId"></td>
+          </tr>
+          <tr>
+            <th>Số xe:</th>
+            <td><input type="hidden" class="form-control" formControlName="licensePlates" name="licensePlates"></td>
+          </tr>
+          <tr>
+            <th>Loại xe:</th>
+            <td>
+              <select class="form-control" formControlName="typeVehicleId" name="typeVehicleId" [compareWith]="equals">
+                <option *ngFor="let typeVehicles of typeVehicles" [ngValue]="typeVehicles">{{typeVehicles.name}}</option>
+              </select>
+              <p *ngIf="stationForm.get('typeVehicle').errors?.required && stationForm.get('typeVehicle').touched">
+                Loại xe không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Tên nhà xe:</th>
+            <td><input class="form-control" formControlName="name" name="name">
+              <p *ngIf="stationForm.get('name').errors?.required && stationForm.get('name').touched">
+                Tên nhà xe không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Điểm đi:</th>
+            <td>
+              <select class="form-control" formControlName="go" name="go">
+                <option value="Đà Nẵng">Đà Nẵng</option>
+                <option value="Huế">Huế</option>
+                <option value="Nha Trang">Nha Trang</option>
+                <option value="Quảng Nam">Quảng Nam</option>
+                <option value="Quảng Bình">Quảng Bình</option>
+                <option value="Quảng Trị">Quảng Trị</option>
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+              </select>
+              <p *ngIf="stationForm.get('go').errors?.required && stationForm.get('go').touched">
+                Điểm đi không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Điểm đến:</th>
+            <td>
+              <select class="form-control" formControlName="arrive" name="arrive">
+                <option value="Đà Nẵng">Đà Nẵng</option>
+                <option value="Huế">Huế</option>
+                <option value="Nha Trang">Nha Trang</option>
+                <option value="Quảng Nam">Quảng Nam</option>
+                <option value="Quảng Bình">Quảng Bình</option>
+                <option value="Quảng Trị">Quảng Trị</option>
+                <option value="Hà Nội">Hà Nội</option>
+                <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+              </select>
+              <p *ngIf="stationForm.get('arrive').errors?.required && stationForm.get('arrive').touched">
+                Điểm đến không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Số điện thoại:</th>
+            <td><input class="form-control" formControlName="phone" name="phone">
+              <p *ngIf="stationForm.get('phone').errors?.required && stationForm.get('phone').touched">
+                Số điện thoại không được để trống!</p>
+              <p *ngIf="stationForm.get('phone').errors?.pattern && stationForm.get('phone').touched">
+                Số điện thoại phải đúng định dạng (090)/(093)/(097) và có 10 số!</p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>Email:</th>
+            <td><input class="form-control" formControlName="email" name="email">
+              <p *ngIf="stationForm.get('email').errors?.required && stationForm.get('email').touched">
+                Email không được để trống!</p>
+              <p *ngIf="stationForm.get('email').errors?.email && stationForm.get('email').touched">
+                Email phải đúng định dạng (xxx@xxx)!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Giờ đi:</th>
+            <td><input type="time" class="form-control" formControlName="start" name="start">
+              <p *ngIf="stationForm.get('start').errors?.required && stationForm.get('start').touched">
+                Giờ đi không được để trống!</p>
+            </td>
+          </tr>
+          <tr>
+            <th>Giờ đến:</th>
+            <td><input type="time" class="form-control" formControlName="end" name="end">
+              <p *ngIf="stationForm.get('end').errors?.required && stationForm.get('end').touched">
+                Giờ đến không được để trống!</p>
+            </td>
+          </tr>
+
+        </table>
+        <div style="margin: 10px">
+          <input style="margin: 5px" class="btn btn-success" type="submit" value="Cập nhật">
+          <a style="margin: 5px" class="btn btn-success" [routerLink]="['/station/list']">Quay về</a>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
