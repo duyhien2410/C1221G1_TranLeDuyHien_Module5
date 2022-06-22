@@ -15,9 +15,9 @@ export class StationService {
     return this.http.get<Station[]>('http://localhost:8080/station/list');
   }
 
-  // saveTransaction(station): Observable<Station> {
-  //   return this.http.post<Station>('http://localhost:3000/transaction', transaction);
-  // }
+  saveTransaction(station): Observable<Station> {
+    return this.http.post<Station>('http://localhost:8080/station', station);
+  }
 
   deleteStation(id: number): Observable<Station> {
     return this.http.delete<Station>('http://localhost:8080/station/'+`${id}`);
@@ -29,5 +29,9 @@ export class StationService {
 
   updateStation(id: number, station: Station): Observable<Station> {
     return this.http.put<Station>('http://localhost:8080/station/'+`${id}`, station);
+  }
+
+  searchNameStation(value: any): Observable<Station[]> {
+    return this.http.get<Station[]>('http://localhost:8080/station/list?name='+`${value}`);
   }
 }

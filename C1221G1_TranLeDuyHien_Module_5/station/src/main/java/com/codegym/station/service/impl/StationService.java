@@ -31,7 +31,7 @@ public class StationService implements IStationService {
     }
 
     @Override
-    public List<Station> findAll() {
-        return this.stationRepository.findAll();
+    public List<Station> findAllAndSearch(String name) {
+        return this.stationRepository.findAllByNameContaining(name);
     }
 }

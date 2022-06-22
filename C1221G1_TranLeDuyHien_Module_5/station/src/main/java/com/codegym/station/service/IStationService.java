@@ -13,5 +13,5 @@ public interface IStationService {
 
     Station findById(int id);
 
-    List<Station> findAll();
+    List<Station> findAllAndSearch(String name);
 }

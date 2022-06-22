@@ -11,10 +11,10 @@ import {TypeVehicleService} from "../../service/type-vehicle.service";
   styleUrls: ['./station-create.component.css']
 })
 export class StationCreateComponent implements OnInit {
-  typeVehicleId: TypeVehicle[];
+  typeVehicles: TypeVehicle[];
   stationForm: FormGroup = new FormGroup({
     stationId: new FormControl(''),
-    licensePlates: new FormControl(''),
+    licensePlates: new FormControl('', [Validators.required]),
     typeVehicleId: new FormControl('', [Validators.required]),
     name: new FormControl('', [Validators.required]),
     go: new FormControl('', [Validators.required]),
@@ -31,14 +31,14 @@ export class StationCreateComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    this.typeVehicleService.getAll().subscribe(typeVehicleId => {
-      this.typeVehicleId = typeVehicleId;
+    this.typeVehicleService.getAll().subscribe(typeVehicles => {
+      this.typeVehicles = typeVehicles;
     });
   }
 
   submit() {
     if (this.stationForm.valid) {
-      this.stationService.s(this.stationForm.value).subscribe(() => {
+      this.stationService.saveTransaction(this.stationForm.value).subscribe(() => {
         this.stationForm.reset();
         alert('Thêm mới thành công!');
       }, e => {

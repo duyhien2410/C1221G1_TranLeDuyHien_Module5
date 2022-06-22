@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, ElementRef, OnInit, ViewChild} from '@angular/core';
 import {Station} from "../../model/station";
 import {StationService} from "../../service/station.service";
 import {Router} from "@angular/router";
@@ -10,6 +10,7 @@ import {TypeVehicleService} from "../../service/type-vehicle.service";
   styleUrls: ['./station-list.component.css']
 })
 export class StationListComponent implements OnInit {
+  @ViewChild('name') name: ElementRef;
   stations: Station[] = [];
   id: number;
   licensePlates: string;
@@ -22,6 +23,9 @@ export class StationListComponent implements OnInit {
 
   ngOnInit(): void {
     this.getAll();
+    this.stationService.searchNameStation('').subscribe(stations => {
+      this.stations = stations;
+    })
   }
 
   getAll() {
@@ -43,6 +47,16 @@ export class StationListComponent implements OnInit {
       console.log(e);
     }, () => {
       this.router.navigate(['/station/list']);
+    });
+  }
+
+
+  searchNameStation() {
+    this.stationService.searchNameStation(this.name.nativeElement.value).subscribe(response => {
+      this.stations = response;
+      console.log(response);
+    },  e => {
+      console.log(e);
     });
   }
 }
